@@ -9,8 +9,8 @@
   <meta property="og:locale" content="es_CO">
   <meta property="og:title" content="Seguridad y talento para crecer | Asesoría SST y gestión humana">
   <meta property="og:description" content="Gestión estratégica del SG-SST, auditorías, gestión de riesgos y talento humano en Santiago de Cali, Colombia.">
-  <meta property="og:image" content="assets/hero.jpeg">
-  <link rel="icon" type="image/png" href="assets/logo.png">
+  <meta property="og:image" content="hero.jpeg">
+  <link rel="icon" type="image/png" href="logo.png">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&amp;display=swap">
@@ -141,7 +141,6 @@
       color: var(--color-ink-soft);
     }
 
-    /* Encabezado y navegación principal */
     .site-header {
       position: sticky;
       z-index: 10;
@@ -247,7 +246,6 @@
       white-space: nowrap;
     }
 
-    /* Sección hero con imagen de fondo, propuesta de valor y CTA */
     .hero {
       position: relative;
       display: flex;
@@ -256,7 +254,7 @@
       overflow: hidden;
       background:
         linear-gradient(90deg, rgba(10, 34, 56, 0.91) 0%, rgba(10, 34, 56, 0.77) 51%, rgba(10, 34, 56, 0.2) 100%),
-        url("assets/trabajo.jpg") center 43% / cover no-repeat;
+        url("trabajo.jpg") center 43% / cover no-repeat;
     }
 
     .hero::after {
@@ -346,7 +344,6 @@
       font-size: 0.89rem;
     }
 
-    /* Servicios profesionales en tarjetas descriptivas */
     .services-section {
       background: #fff;
     }
@@ -390,7 +387,6 @@
       font-size: 1.24rem;
     }
 
-    /* Contacto: formulario etiquetado y estado accesible */
     .contact-section {
       background: var(--color-surface);
     }
@@ -521,7 +517,6 @@
       font-weight: 500;
     }
 
-    /* Pie de página con derechos reservados y enlaces sociales */
     .site-footer {
       padding-block: 30px;
       background: #102b43;
@@ -556,7 +551,6 @@
       color: #63d5c4;
     }
 
-    /* Botón flotante de regreso al inicio, visible después de desplazarse */
     .back-to-top {
       position: fixed;
       z-index: 9;
@@ -746,11 +740,10 @@
   </style>
 </head>
 <body>
-  <!-- Encabezado con logo y navegación por las secciones principales -->
   <header class="site-header" id="inicio">
     <div class="container header-inner">
       <a class="brand" href="#inicio" aria-label="Inicio — asesoría en SST y gestión humana">
-        <img src="assets/logo.png" alt="Logo de asesoría en seguridad y talento">
+        <img src="logo.png" alt="Logo de asesoría en seguridad y talento">
         <span class="brand-copy">
           <strong>Seguridad &amp; Talento</strong>
           <span>Asesoría SST y gestión humana</span>
@@ -766,7 +759,6 @@
   </header>
 
   <main>
-    <!-- Hero con imagen de fondo, presentación y llamado a la acción -->
     <section class="hero" aria-labelledby="hero-title">
       <div class="container">
         <div class="hero-content">
@@ -781,7 +773,6 @@
       </div>
     </section>
 
-    <!-- Servicios destacados presentados en tres tarjetas descriptivas -->
     <section class="section services-section" id="servicios" aria-labelledby="services-title">
       <div class="container">
         <div class="section-heading">
@@ -791,7 +782,7 @@
         </div>
         <div class="card-grid">
           <article class="service-card">
-            <img src="assets/asesoria.jpg" alt="Asesoría en seguridad y salud en el trabajo con profesionales y personal de planta" loading="lazy" decoding="async">
+            <img src="asesoria.jpg" alt="Asesoría en seguridad y salud en el trabajo con profesionales y personal de planta" loading="lazy" decoding="async">
             <div class="service-card-content">
               <span class="service-icon" aria-hidden="true">
                 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
@@ -804,7 +795,7 @@
             </div>
           </article>
           <article class="service-card">
-            <img src="assets/verificacion.jpg" alt="Inspección de condiciones de seguridad y riesgos en una planta industrial" loading="lazy" decoding="async">
+            <img src="verificacion.jpg" alt="Inspección de condiciones de seguridad y riesgos en una planta industrial" loading="lazy" decoding="async">
             <div class="service-card-content">
               <span class="service-icon" aria-hidden="true">
                 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
@@ -818,7 +809,7 @@
             </div>
           </article>
           <article class="service-card">
-            <img src="assets/gestion.jpg" alt="Concepto de gestión humana y desarrollo del talento en una organización" loading="lazy" decoding="async">
+            <img src="gestion.jpg" alt="Concepto de gestión humana y desarrollo del talento en una organización" loading="lazy" decoding="async">
             <div class="service-card-content">
               <span class="service-icon" aria-hidden="true">
                 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
@@ -835,7 +826,6 @@
       </div>
     </section>
 
-    <!-- Contacto con formulario accesible y campos validados -->
     <section class="section contact-section" id="contacto" aria-labelledby="contact-title">
       <div class="container contact-layout">
         <div class="contact-copy">
@@ -856,7 +846,7 @@
               loading="lazy"
               referrerpolicy="no-referrer-when-downgrade"
               allowfullscreen>
-            </iframe>
+            ></iframe>
           </div>
           <div class="contact-note">
             <svg viewBox="0 0 24 24" width="21" height="21" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
@@ -886,7 +876,6 @@
     </section>
   </main>
 
-  <!-- Pie de página con derechos reservados y enlaces a redes sociales -->
   <footer class="site-footer">
     <div class="container footer-inner">
       <p>&copy; <span id="current-year">2026</span> Seguridad &amp; Talento. Todos los derechos reservados.</p>
@@ -897,7 +886,6 @@
     </div>
   </footer>
 
-  <!-- Botón flotante que permite volver al inicio después de desplazarse -->
   <button class="back-to-top" id="back-to-top" type="button" aria-label="Volver arriba" aria-hidden="true" tabindex="-1">
     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
       <path d="m6 14 6-6 6 6"></path>
@@ -905,7 +893,6 @@
   </button>
 
   <script>
-    // El estado de envío se anuncia con un mensaje accesible; para entregar correos hace falta integrar un servicio de formulario.
     const contactForm = document.querySelector("#contact-form");
     const formStatus = document.querySelector("#form-status");
     const backToTop = document.querySelector("#back-to-top");
@@ -934,7 +921,6 @@
       event.currentTarget.setCustomValidity("");
     });
 
-    // Alterna el botón flotante según la posición de desplazamiento de la página.
     const updateBackToTopVisibility = () => {
       const isVisible = window.scrollY > 360;
       backToTop.classList.toggle("is-visible", isVisible);
@@ -949,7 +935,6 @@
       window.scrollTo({ top: 0, behavior: "smooth" });
     });
 
-    // Mantiene un cambio perceptible al pulsar los botones principales.
     document.querySelectorAll(".button, .back-to-top").forEach((button) => {
       button.addEventListener("click", () => {
         button.classList.add("is-pressed");
